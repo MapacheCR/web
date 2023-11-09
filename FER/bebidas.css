@@ -1,0 +1,129 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #7bff00;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+/* Opciones del encabezado */
+.opciones {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.opciones li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Enlaces del encabezado */
+.opciones a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: color 0.2s;
+}
+
+.opciones a:hover {
+    color: #ffdb58;
+}
+
+/* Estilos para la sección de Bebidas */
+#bebidas {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+}
+
+#bebidas h2 {
+    text-align: center;
+    color: #4ccf00;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #12236e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+.price {
+    font-weight: bold;
+    color: #ff4500;
+    font-size: 1.4em;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #09ff00;
+    border-bottom: 5px solid #00ff4c;
+}
+
+/* Enlaces de pie de página */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #ffdb58;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff4500;
+}

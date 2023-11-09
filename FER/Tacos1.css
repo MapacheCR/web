@@ -1,0 +1,102 @@
+/* Estilos comunes para encabezado y pie de página */
+header, footer {
+    background-image: url('LogoTaqueria.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(29, 26, 26);
+    padding: 20px 0;
+    box-shadow: 0px 5px 10px rgba(238, 32, 32, 0.2);
+    text-align: center;
+}
+
+
+
+header .logo h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgb(18, 215, 241);
+    font-family: serif;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a, footer a {
+    text-decoration: none;
+    color: rgb(36, 214, 199);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover, footer a:hover {
+    background-color: #eeff00;
+}
+
+/* Estilos específicos para el menú */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: rgb(245, 104, 134);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    color: #333;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 247, 0);
+    color: rgb(0, 0, 0);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+.price {
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #33b4ff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c8ff00;
+}
+
+body{
+    background-color: rgb(131, 45, 134);
+}
+
+
